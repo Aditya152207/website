@@ -1,0 +1,49 @@
+body{
+    text-align:center;
+
+}
+#welcome{
+    background:linear-gradient(green 0% , blue 100%);
+    padding-top:50px;
+    padding-bottom:40px;
+}
+#bio{
+    padding-left:40px;
+    padding-right:50px;
+    
+}
+.line{
+    height:5px;
+    width:80px;
+    margin:8px auto;
+    background-color:black;
+}
+.link{
+    list-style:none;
+    position:fixed;
+    top:0;
+    margin-top:0;
+    z-index:999;
+    width:100%;
+    background-color:aqua;
+    cursor:pointer
+    
+}
+.clss{
+    float:left;
+    padding-left:20px;
+    padding-right:20px;
+    font-size:25px;
+    
+    font-family: 'Cedarville Cursive', cursive;
+    
+}
+#contact iframe{
+    width:100%;
+}
+#divcontact h3{
+    display:inline;
+}
+.clss:hover{
+    font-size:35px;
+}
